@@ -1,16 +1,26 @@
-# tumiagetter
+# 共同開発8：つみあげったー
 
-A new Flutter project.
+これはFlutter大学　共同開発　第８期のつみあげったーアプリのプロジェクトです。
 
-## Getting Started
+## これから参加される方へ
 
-This project is a starting point for a Flutter application.
+必ず以下のドキュメントを読んでから参加をお願いします。
 
-A few resources to get you started if this is your first Flutter project:
+- [アプリの実行方法(FVMの導入)]()
+- [タスク管理の方法]()
+- [ブランチの管理ルール]()
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 開発情報
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 開発対象プラットフォーム
+
+Androidのみ
+
+### 開発仕向
+
+日本のみ
+
+### 開発期間
+
+2022年4月10日　〜　6月30日
+
