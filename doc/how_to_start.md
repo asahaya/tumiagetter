@@ -11,13 +11,13 @@
 tumiagetterフォルダを管理したいディレクトリにターミナルで移動し、
 
 ```
-git clone git@github.com:flutteruniv/tumiagetter.git
+git clone https://github.com/flutteruniv/tumiagetter.git
 ```
 を実行してください。
 
 Source Treeを使っている方は、新規 → URLからクローンで、  
 
-ソースURLに``git@github.com:flutteruniv/tumiagetter.git``を入力し、
+ソースURLに``https://github.com/flutteruniv/tumiagetter.git``を入力し、
 
 保存場所を設定の後、ローカルのtumiagetterフォルダを作成してください。
 
