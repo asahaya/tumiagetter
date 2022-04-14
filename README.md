@@ -6,9 +6,9 @@
 
 必ず以下のドキュメントを読んでから参加をお願いします。
 
-- [アプリの実行方法(FVMの導入)](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/how_to_start.md)
+- [つみあげったープロジェクトの始め方](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/how_to_start.md)
 - [ワークフロー](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/workflow.md)
-- [ブランチの管理ルール](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/branch.md)
+- [各ブランチの役割](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/branch.md)
 
 ## 開発情報
 
