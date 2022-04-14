@@ -31,6 +31,7 @@ FVMのインストール、パスの設定をしてください。
 #### Windowsの方
 
 [こちらの記事](https://qiita.com/idani/items/0e45d037b4c2a93840a7)を参考にFVMのインストール、パスの設定をしてください。
+
 ``dart pub global activate fvm``で行う方法は非推奨です。
 中盤に直接ダウンロードする方法が書かれているので、そちらで実行してください。
 
