@@ -24,6 +24,6 @@ Androidのみ
 
 2022年4月10日　〜　6月30日
 
-###　仕様書
+### 仕様書
 
 [仕様書](https://docs.google.com/presentation/d/1rLzU9USIjKhDLc6daAMj26nNX9h5DI9BRI27vTQ0jWc/edit?usp=sharing)
