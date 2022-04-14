@@ -9,6 +9,7 @@ class Tumiagetter extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Text('minnです'),
+
         ),
       ),
     );
