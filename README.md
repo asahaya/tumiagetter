@@ -6,9 +6,9 @@
 
 必ず以下のドキュメントを読んでから参加をお願いします。
 
-- [アプリの実行方法(FVMの導入)]()
-- [タスク管理の方法]()
-- [ブランチの管理ルール]()
+- [アプリの実行方法(FVMの導入)](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/how_to_start.md)
+- [タスク管理の方法](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/github_project.md)
+- [ブランチの管理ルール](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/workflow.md)
 
 ## 開発情報
 
