@@ -6,9 +6,9 @@
 
 必ず以下のドキュメントを読んでから参加をお願いします。
 
-- [アプリの実行方法(FVMの導入)](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/how_to_start.md)
+- [つみあげったープロジェクトの始め方](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/how_to_start.md)
 - [ワークフロー](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/workflow.md)
-- [ブランチの管理ルール](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/branch.md)
+- [各ブランチの役割](https://github.com/flutteruniv/tumiagetter/blob/develop/doc/branch.md)
 
 ## 開発情報
 
@@ -24,3 +24,6 @@ Androidのみ
 
 2022年4月10日　〜　6月30日
 
+### 仕様書
+
+[仕様書](https://docs.google.com/presentation/d/1rLzU9USIjKhDLc6daAMj26nNX9h5DI9BRI27vTQ0jWc/edit?usp=sharing)
