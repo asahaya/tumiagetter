@@ -8,7 +8,7 @@ class Tumiagetter extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('aoiです'),
+          child: Text('かわどです'),
         ),
       ),
     );
