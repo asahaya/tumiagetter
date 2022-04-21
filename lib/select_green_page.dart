@@ -19,60 +19,66 @@ class _SelectGreenPageState extends State<SelectGreenPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: imageColor,
-        leading: Icon(Icons.arrow_back),
-        title: Center(
-          child: Text(
-            '今日の積み上げ',
-            style: TextStyle(color: textColor),
-          ),
-        ),
-        actions: [
-          Icon(Icons.add),
-          SizedBox(width: 20),
-        ],
+    return MaterialApp(
+      title: 'tsumiagetter',
+      theme: ThemeData(
+        primaryColor: Color(0x32CD32),
       ),
-      body: Column(
-        children: [
-          Expanded(
-              flex: 9,
-              child: ListView(
-                  children: _list
-                      .map(
-                        (ListStatus items) => Container(
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                            color: Color(0xFF000000),
-                          )),
-                          child: CheckboxListTile(
-                              title: Text(items.textData!),
-                              value: items.isCheck,
-                              onChanged: (bool? checkValue) {
-                                setState(() {
-                                  items.isCheck = checkValue;
-                                });
-                              }),
-                        ),
-                      )
-                      .toList())),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(15.0),
-              child: SizedBox(
-                width: double.maxFinite,
-                child: ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      primary: imageColor,
-                      shape: const StadiumBorder(),
-                    ),
-                    onPressed: () {},
-                    child: Text('決定')),
-              ),
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: imageColor,
+          leading: Icon(Icons.arrow_back),
+          title: Center(
+            child: Text(
+              '今日の積み上げ',
+              style: TextStyle(color: textColor),
             ),
           ),
-        ],
+          actions: [
+            Icon(Icons.add),
+            SizedBox(width: 20),
+          ],
+        ),
+        body: Column(
+          children: [
+            Expanded(
+                flex: 9,
+                child: ListView(
+                    children: _list
+                        .map(
+                          (ListStatus items) => Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                              color: Color(0xFF000000),
+                            )),
+                            child: CheckboxListTile(
+                                title: Text(items.textData!),
+                                value: items.isCheck,
+                                onChanged: (bool? checkValue) {
+                                  setState(() {
+                                    items.isCheck = checkValue;
+                                  });
+                                }),
+                          ),
+                        )
+                        .toList())),
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: SizedBox(
+                  width: double.maxFinite,
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: imageColor,
+                        shape: const StadiumBorder(),
+                      ),
+                      onPressed: () {},
+                      child: Text('決定')),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
